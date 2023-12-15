@@ -1,0 +1,4 @@
+KWERENDA 1: SELECT kierunek, czas FROM przyloty WHERE status_lotu = "";
+KWERENDA 2: SELECT kierunek, dzien FROM odloty a JOIN samoloty b ON a.samoloty_id = b.id WHERE a.samoloty_id = 3 OR a.samoloty_id = 1;
+KWERENDA 3: SELECT nr_rejsu, kierunek FROM przyloty WHERE nr_rejsu LIKE '%LX%';
+KWERENDA 4: UPDATE samoloty SET linie = "SWISS2" WHERE linie LIKE 'SWISS';
